@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('sky.jpg'); /* Set the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; /* Light text color */
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 31, 63, 0.7); /* Semi-transparent dark blue header background */
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* About Us Content Styles */
+.about-us-content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 31, 63, 0.7); /* Semi-transparent dark blue background */
+    border-radius: 10px;
+}
+
+.about-us-content h2 {
+    color: #fff; /* Light text color */
+}
+
+.about-us-paragraph {
+    text-align: left;
+    margin: 20px 0;
+}
+
+/* Links to Homepage and Navy Game Styles */
+.nav-links {
+    margin-top: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #0074d9; /* Link color */
+    font-size: 18px;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00a0ff; /* Hover color */
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(0, 31, 63, 0.7); /* Semi-transparent dark blue footer background */
+    padding: 20px;
+    bottom: 0;
+    font-size: 16px;
+}
+
+.contact-info {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.contact-info h2 {
+    color: #fff; /* Light text color */
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #0074d9; /* Link color */
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+    margin: 10px 0;
+    background-color: #001f3f; /* Dark blue background */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contact-links a:hover {
+    color: #00a0ff; /* Hover color */
+    transform: scale(1.1); /* Hover zoom effect */
+}
